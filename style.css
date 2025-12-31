@@ -1,0 +1,62 @@
+.welcome-container {
+    margin-top: 6rem;
+    margin-bottom: 9rem;
+}
+
+.franchise-container {
+    background-color: rgb(10, 10, 10);
+}
+
+
+.franchises-text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ls-1 {
+    letter-spacing: .5rem;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.franchise-container {
+    width: 100%;
+    height: auto;
+}
+
+.islamabad {
+    width: 100%;
+    height: auto;
+}
+
+.islamabad img {
+    width: 100%;
+}
+
+
+@media  (max-width: 991px) {
+    .brand-card {
+        flex-wrap: wrap;
+    }
+
+    .welcome-text {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .franchise-container {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .islamabad {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+}
